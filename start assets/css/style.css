@@ -1,0 +1,111 @@
+:root {
+    background-color: aliceblue;
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Helveticaneue'; 
+  }
+  
+  h1 {
+    font-size: 21px;
+    color:#1500d6;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 19px;
+    color:#ffffff;
+    margin: 10px;
+  }
+  
+  body {
+    font-family: Arial;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+    background: #ffffff
+  }
+  header {
+    padding: 40px;
+    text-align: center;
+    background: #ffffff
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flex-center {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .btn {
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+      font-size: 18px;
+    background-color: rgb(111, 34, 255);
+      color: #ffffff;
+      border: 0px;
+      border-radius: 3px;
+      padding: 10px;
+      cursor: pointer;
+      margin-bottom: 20px;
+  }
+  
+  .btn:hover{
+    cursor: pointer;
+    background-color: rgb(137, 77, 248);
+    text-decoration: none;
+  }
+  
+  .btn[disabled]:hover {
+    cursor: not-allowed;
+    transform: none;
+  }
+  
+  .btn:visited {
+    text-decoration:none;
+  }
+  
+  #highscore-btn {
+    background-color: rgb(45, 112, 255);
+  }
+  
+  #highscore-btn:hover{
+    cursor: pointer;
+    background-color: rgb(84, 137, 252);
+  }
