@@ -20,7 +20,7 @@
     color:#ffffff;
     margin: 10px;
   }
-  
+    
   body {
     font-family: Arial;
     margin: 0;
@@ -44,7 +44,7 @@
   
   .container {
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;

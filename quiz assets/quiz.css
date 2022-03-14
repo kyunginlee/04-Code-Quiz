@@ -1,6 +1,13 @@
 body {
     color: #11111b;
 }
+.timer {
+    height: 240px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+
 .choice-container {
     display:flex;
     margin: 10px;
