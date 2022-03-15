@@ -31,7 +31,7 @@
     background: #ffffff
   }
   header {
-    padding: 40px;
+    padding-top: 40px;
     text-align: center;
     background: #ffffff
   }
@@ -42,9 +42,11 @@
     justify-content: space-around;
   }
   
+  .card-timer {
+    top: 50px;
+  }
   .container {
     width: 100vw;
-    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
