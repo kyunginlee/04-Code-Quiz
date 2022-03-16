@@ -2,7 +2,7 @@ const question = document.querySelector('#question');
 const choices = Array.from(document.querySelectorAll('.choice-text'));
 const progressText = document.querySelector('#progressText');
 const scoreText = document.querySelector('#score');
-const timerElement = document.querySelector("timer-count");
+const timerElement = document.querySelector(".timer-count");
 const win = document.querySelector("win");
 const lose = document.querySelector("lose");
 const progressBarFull = document.querySelector('#progressBarFull');
@@ -83,6 +83,7 @@ function startTimer() {
         
         if (timerCount == 0) {
             clearInterval(timer);
+            return window.location.assign('./endquiz.html')
         }
     },1000);
 }
@@ -119,7 +120,7 @@ getNewQuestion = () => {
 
     availableQuestions.splice(questionsIndex, 1)
 
-    acceptingAnswers = true
+    acceptingAnswers = true 
 }
 
 choices.forEach(choice => {
@@ -134,6 +135,11 @@ choices.forEach(choice => {
 
         if(classToApply === 'correct') {
             incrementScore(SCORE_POINTS)
+            timerCount = timerCount + 4;
+        }
+
+        if(classToApply === 'incorrect') {
+            timerCount = timerCount - 2;
         }
 
         selectedChoice.parentElement.classList.add(classToApply)

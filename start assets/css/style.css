@@ -150,7 +150,6 @@ input::placeholder {
 }
 
 #saveScoreBtn {
+  border: none;
 }
 
-.fa-home {
-}
