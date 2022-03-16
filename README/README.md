@@ -17,6 +17,7 @@ WHEN the user answers a question incorrectly, 2 seconds are subtracted from the 
 
 WHEN the game is over, the user can save their username and score, and play again or return to the start page.
 
+![Alt Text](./codequiz.gif)
 
 ## Development Process
 
@@ -39,16 +40,12 @@ On Completion I reviewed the miniproject completed in week 4 to begin add in the
 
 
 ## Challenges / Bugs 
-
-With the countdown, when the user forces time into a negative (eg.-2) byt getting the answer incorrecu, the timer will continue to subtract into negative territory. A fix will be needed to ensure when timer <= 0 game is over. 
-
 On finalising project, I was seeing the below in the console when browsing the project via my local repository, but did not show the message when the deployed link was used, something I will look into but on brief research it seems to be a browser imposed restriction.
+****Not allowed to load local resource: file:///Users/jess/Desktop/TRILOGY/HOMEWORK/week-4/04-Code-Quiz/highscores****
 
-Not allowed to load local resource: file:///Users/jess/Desktop/TRILOGY/HOMEWORK/week-4/04-Code-Quiz/highscores
+The save score function requires a fix / refactor, the ul tag in the highscores.html is not populating the score saved as per the highscores.js
 
-Also having trouble with the save score function, the <ul> in the highscores.html is not populating the score saved as per the highscores.js
-
-
+![Alt Text](./issues.gif)
 ## Resources
 * How to Make a Quiz App using HTML CSS Javascript - Vanilla Javascript Project for Beginners Tutorial https://www.youtube.com/watch?v=f4fB9Xg2JEY
 

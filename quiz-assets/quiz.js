@@ -63,25 +63,12 @@ let questions = [
 const SCORE_POINTS = 100
 const MAX_QUESTIONS = 5
 
-function winGame() {
-    console.log("You won!")
-}
-
-function loseGame() {
-    console.log("You lost")
-}
 function startTimer() {
     var timer = setInterval(function () {
         timerCount--;
         timerElement.textContent = timerCount;
-
-        if (timerCount > 0) {
-            if (isWin) {
-                winGame();
-            }
-        }
         
-        if (timerCount == 0) {
+        if (timerCount <= 0) {
             clearInterval(timer);
             return window.location.assign('./endquiz.html')
         }
@@ -135,7 +122,7 @@ choices.forEach(choice => {
 
         if(classToApply === 'correct') {
             incrementScore(SCORE_POINTS)
-            timerCount = timerCount + 4;
+            timerCount = timerCount + 2;
         }
 
         if(classToApply === 'incorrect') {
