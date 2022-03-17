@@ -17,8 +17,7 @@ WHEN the user answers a question incorrectly, 2 seconds are subtracted from the 
 
 WHEN the game is over, the user can save their username and score, and play again or return to the start page.
 
-![Alt Text](https://media.giphy.com/media/mZKIAdnt1dsm49kquD/giphy.gif)
-
+![Alt Text](/README/codequiz.gif
 ## Development Process
 
 I followed the tutorial (first link in resources below- from youtube as this presented the most similarities to the quiz shown in the readme file of the homework project of week 4). 
@@ -47,7 +46,7 @@ The save score function requires a fix / refactor, the ul tag in the highscores.
 
 There is also a split second where - when the timercount is < 0, it shows the negative number (eg.-2) before directing user to the save score page as the quiz is over because time has run out. Ideally it should not show the negative timecount at all. 
 
-![Alt Text](https://media.giphy.com/media/lcRD0eoWiVwIRArRmG/giphy.gif)
+![Alt Text](/README/issues.gif)
 ## Resources
 * How to Make a Quiz App using HTML CSS Javascript - Vanilla Javascript Project for Beginners Tutorial https://www.youtube.com/watch?v=f4fB9Xg2JEY
 

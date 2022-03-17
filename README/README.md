@@ -47,6 +47,7 @@ The save score function requires a fix / refactor, the ul tag in the highscores.
 
 There is also a split second where - when the timercount is < 0, it shows the negative number (eg.-2) before directing user to the save score page as the quiz is over because time has run out. Ideally it should not show the negative timecount at all. 
 
+
 ![Alt Text](./issues.gif)
 ## Resources
 * How to Make a Quiz App using HTML CSS Javascript - Vanilla Javascript Project for Beginners Tutorial https://www.youtube.com/watch?v=f4fB9Xg2JEY
