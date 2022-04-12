@@ -1,6 +1,5 @@
 const question = document.querySelector('#question');
 const choices = Array.from(document.querySelectorAll('.choice-text'));
-const progressText = document.querySelector('#progressText');
 const scoreText = document.querySelector('#score');
 const timerElement = document.querySelector(".timer-count");
 const win = document.querySelector("win");
@@ -8,7 +7,7 @@ const lose = document.querySelector("lose");
 const progressBarFull = document.querySelector('#progressBarFull');
 
 var timerCount;
-var isWin = false;
+
 
 let currentQuestion = {}
 let acceptingAnswers = true
